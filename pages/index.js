@@ -25,11 +25,11 @@ export default function Home() {
         <div className={styles.grid}>
           
           <Link href="/surf/sydney" className={styles.card}>
-            <h2>Sydney Surf Report</h2>
+            <a>Sydney Surf Report</a>
           </Link>
 
           <Link href="/surf/kiama" className={styles.card}>
-            <h2>Kiama Surf Report</h2>
+            <a>Kiama Surf Report</a>
           </Link>
 
           
